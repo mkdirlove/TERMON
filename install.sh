@@ -1,7 +1,7 @@
 
 #!/data/data/com.termux/files/usr/bin/bash
 
-echo Installing Driver...
+echo Installing Drivers...
 mkdir -p /termon/
 cp -f pack/driver/* /termon/
 echo OK
@@ -21,7 +21,7 @@ echo Temporary Files Cleaning...
 rm -rf pack
 rm -f $0
 echo OK
-echo Installation Completed! To start WiFi monitor mode just type \"wmod monitor\".
+echo "Installation Completed! To enable monitor mode just type \"wmod monitor\".
  
 
 
